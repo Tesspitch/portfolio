@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.background{
+    background-image: url(https://t3.ftcdn.net/jpg/04/49/74/10/360_F_449741015_7wFz1d5e1voLD3arDjsyST3TtQkZAhg6.jpg);
+}
+
+.container {
+    
+    width: 1440px;
+    height: auto;
+    margin: auto 0;
+}
+
+nav{
+    background-image: url(https://t3.ftcdn.net/jpg/04/02/06/26/360_F_402062643_8YjBecALGOgOM5mTSZzqNTvDhbtinuPm.jpg);
+    /* background-color: #0066CC; */
+    border-radius: 12px;
+    padding: 1rem;
+    width: 1540px;
+    height: auto;
+    margin: 1% auto auto; 
+}
+
+.nav-con { 
+    
+    display: flex;
+    justify-content: space-between;  
+    
+}
+
+.name {  
+    color: white;
+    font-size: 15px;
+    margin-left: 6%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 6%;
+    /* background-color: #0066CC; */
+}
+
+.menu li{
+    margin-right: 2.5rem;
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    /* background-color: #0066CC; */
+}
+
+.profile {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 1%;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    
+}
+
+.profile-con {
+    display: flex;
+    
+}
+
+.profilecon-info {
+    width: 100%;
+    padding: 2rem;
+    margin: auto 10%;
+}
+
+.profilecon-info h5 {
+    font-size: 25px;
+    align-items: center;
+}
+
+.profilecon-info h3 {
+    font-size: 60px;
+
+    
+}
+
+.profilecon-info h4 {
+    font-size: 40px;
+}
+
+.profilecon-info a{
+    background-color: #0066CC;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 2%;
+    font-size: 18px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 1rem;
+
+}
+
+.profilecon-img {
+    align-items: end;
+    margin-left: 5%;
+}
+
+.profilecon-img img{
+    width: 350px;
+    border-radius: 20px;
+    padding: 1rem;
+    
+}
+
+.info-school h1{
+    color: black;
+    text-shadow: 0px 0px 5px whitesmoke;
+}
+
+.container-sc {
+    background-image: url(https://t3.ftcdn.net/jpg/04/02/06/26/360_F_402062643_8YjBecALGOgOM5mTSZzqNTvDhbtinuPm.jpg);
+    margin-top: 1%;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    box-shadow: 0px 0px 20px black;
+}
+
+.edu h1 {
+    margin-top: 1%;
+    text-align: center;
+    padding: 2rem;
+    color: whitesmoke;
+    font-size: 25px;
+    text-shadow: 0px 0px 20px gray  ;
+}
+
+.school-con {
+    justify-content: space-between;
+    display: flex;
+}
+
+.school-info{
+    margin-top: 20px;
+    color: white;
+}
+
+.school-info h3{
+    font-size: 35px;
+}
+
+.school-info p{
+    font-size: 16px;
+}
+
+.img-sc {
+    list-style: none;
+}
+
+.img-sc img{
+    width: 85px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 20px 50px rgba(255, 255, 255, 0.4);
+
+}
+
+.bks {
+    margin-top: 5px;
+
+}
+
+.bks2{
+    margin-top: 10%;
+
+}
+
+.msu {
+    margin-top: 20%;
+}
+
+.skill {
+    background-image: url(https://t3.ftcdn.net/jpg/04/02/06/26/360_F_402062643_8YjBecALGOgOM5mTSZzqNTvDhbtinuPm.jpg);
+    margin-top: 3%;
+    margin-left: 520px;
+    margin-right: 520px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.container-skill {
+    display: flex;
+    color: whitesmoke;
+    margin-top: 1%;
+    margin: auto auto;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+
+.container-skill h2{
+    text-align: center;
+    padding: 2rem;
+}
+
+.container-skill img{
+    display: block;
+}
+
+.info-skill{
+    padding: 2rem;
+}
+
+.head-skill{
+    margin-top: 0%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 22px;
+    text-shadow: 0px 0px 20px gray;
+    margin-bottom: 2%;
+}
+
+.java {
+    width: 60px;
+    margin: auto auto;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+
+.python {
+    width: 60px;
+    margin: auto auto;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+
+.c {
+    width: 55px;
+    margin: auto auto;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+
+.html {
+    width: 55px;
+    margin: auto auto;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+
+.css {
+    width: 55px;
+    margin: auto auto;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+
+.skill-button{
+    padding: 1rem;
+    margin: 5% auto;
+    text-align: center;
+    margin-bottom: auto;
+    
+}
+
+.skill-button a{
+    background-color: white;
+    color: #0066CC;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 2%;
+    font-size: 10px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 1rem;
+
+}
+
+.footer {
+    background-color: rgb(0, 57, 114);
+    padding: 2rem;
+    backdrop-filter: blur(3px);
+    
+}
+
+.contact {
+    display: flex;
+}
+
